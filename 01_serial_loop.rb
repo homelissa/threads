@@ -5,6 +5,6 @@ end
 
 start = Time.now
 
-(1..3).each { |num| output(num) }
+(1..10).each { |num| output(num) }
 
-puts "#{Time.now - start} seconds to complete."
+puts "#{Time.now-start} seconds to complete."

@@ -11,6 +11,6 @@ end
 
 threads.each(&:join)
 
-puts "count = #{count}"
+puts "count=#{count}"
 
 # The reason why this example worked is that the standard Ruby runtime isn’t capable of parallelism. By default, threads will only execute one at a time on a global variable. With the standard Ruby runtime, you don’t have to worry too much about race conditions.

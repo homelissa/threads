@@ -11,4 +11,4 @@ threads = (1..10).map { |num| Thread.new { output(num) } }
 # Call "join" on each thread instance so it merges back with main thread
 threads.each(&:join)
 
-puts "#{Time.now.to_f - start.to_f} seconds to complete."
+puts "#{Time.now.to_f-start.to_f} seconds to complete."

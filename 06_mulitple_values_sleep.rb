@@ -15,6 +15,6 @@ end
 
 threads.each(&:join)
 
-puts "count1 : #{count1}"
-puts "count2 : #{count2}"
-puts "diff : #{diff}"
+puts "count1:#{count1}"
+puts "count2:#{count2}"
+puts "diff:#{diff}"

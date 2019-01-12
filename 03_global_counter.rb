@@ -9,4 +9,4 @@ end
 
 threads.each(&:join)
 
-puts "count = #{count}"
+puts "count=#{count}"
